@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MeViewController.h
 //  sudayao
 //
 //  Created by yyx on 15/10/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MeViewController : UIViewController
 
 @end
-
