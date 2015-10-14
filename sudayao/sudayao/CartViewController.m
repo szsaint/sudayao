@@ -19,6 +19,28 @@
     // Do any additional setup after loading the view.
 }
 
+/**
+ *  初始化导航栏
+ */
+-(void)initNavigationBar{
+    
+}
+
+/**
+ *  初始化用户界面
+ */
+-(void)initUserInterface{
+    
+}
+
+
+/**
+ *  初始化数据
+ */
+-(void)initUserData{
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
