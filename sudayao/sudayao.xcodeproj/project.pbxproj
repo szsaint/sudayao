@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		18DB6F18093D8E559C64EF2D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32A149CC07250789C6EF702A /* libPods.a */; };
+		470729441BCFB3C500E8158E /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 470729431BCFB3C500E8158E /* BannerView.m */; settings = {ASSET_TAGS = (); }; };
+		470729471BCFC5B200E8158E /* bannertest.png in Resources */ = {isa = PBXBuildFile; fileRef = 470729461BCFC5B200E8158E /* bannertest.png */; settings = {ASSET_TAGS = (); }; };
 		473DABB21BCD2AB400F1FEED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 473DABB11BCD2AB400F1FEED /* main.m */; };
 		473DABB51BCD2AB400F1FEED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 473DABB41BCD2AB400F1FEED /* AppDelegate.m */; };
 		473DABBB1BCD2AB400F1FEED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473DABB91BCD2AB400F1FEED /* Main.storyboard */; };
@@ -20,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		32A149CC07250789C6EF702A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		470729421BCFB3C500E8158E /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		470729431BCFB3C500E8158E /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		470729461BCFC5B200E8158E /* bannertest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bannertest.png; sourceTree = "<group>"; };
 		473DABAD1BCD2AB300F1FEED /* sudayao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sudayao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		473DABB11BCD2AB400F1FEED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		473DABB31BCD2AB400F1FEED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -34,6 +39,7 @@
 		473DABCE1BCD30BE00F1FEED /* CartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CartViewController.m; sourceTree = "<group>"; };
 		473DABD11BCD30D200F1FEED /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
 		473DABD21BCD30D200F1FEED /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		4745FE4D1BCF5B27007ED99D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		5F4484E99CD9177485FB3BFD /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		BD0390E1DC5769D1D3F7AFD7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -50,6 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4707293D1BCFB32300E8158E /* http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = http;
+			sourceTree = "<group>";
+		};
+		4707293E1BCFB32B00E8158E /* http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = http;
+			sourceTree = "<group>";
+		};
+		4707293F1BCFB33300E8158E /* http */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = http;
+			sourceTree = "<group>";
+		};
+		470729401BCFB38600E8158E /* common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		470729411BCFB38C00E8158E /* utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+		470729451BCFC4A400E8158E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				470729461BCFC5B200E8158E /* bannertest.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4707294B1BCFD73F00E8158E /* customview */ = {
+			isa = PBXGroup;
+			children = (
+				470729421BCFB3C500E8158E /* BannerView.h */,
+				470729431BCFB3C500E8158E /* BannerView.m */,
+			);
+			name = customview;
+			sourceTree = "<group>";
+		};
 		473DABA41BCD2AB300F1FEED = {
 			isa = PBXGroup;
 			children = (
@@ -72,10 +130,12 @@
 			isa = PBXGroup;
 			children = (
 				473DABC71BCD305E00F1FEED /* Classes */,
+				470729451BCFC4A400E8158E /* Resources */,
 				473DABB31BCD2AB400F1FEED /* AppDelegate.h */,
 				473DABB41BCD2AB400F1FEED /* AppDelegate.m */,
 				473DABBC1BCD2AB400F1FEED /* Assets.xcassets */,
 				473DABB91BCD2AB400F1FEED /* Main.storyboard */,
+				4745FE4D1BCF5B27007ED99D /* PrefixHeader.pch */,
 				473DABBE1BCD2AB400F1FEED /* LaunchScreen.storyboard */,
 				473DABC11BCD2AB400F1FEED /* Info.plist */,
 				473DABB01BCD2AB400F1FEED /* Supporting Files */,
@@ -94,6 +154,9 @@
 		473DABC71BCD305E00F1FEED /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				4707294B1BCFD73F00E8158E /* customview */,
+				470729411BCFB38C00E8158E /* utils */,
+				470729401BCFB38600E8158E /* common */,
 				473DABD01BCD30C300F1FEED /* Me */,
 				473DABCC1BCD30A500F1FEED /* Cart */,
 				473DABCB1BCD308E00F1FEED /* Main */,
@@ -104,6 +167,7 @@
 		473DABCB1BCD308E00F1FEED /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4707293F1BCFB33300E8158E /* http */,
 				4745FE4C1BCD3DB3007ED99D /* View */,
 				4745FE4B1BCD3DAC007ED99D /* Controller */,
 				4745FE4A1BCD3DA6007ED99D /* Model */,
@@ -114,6 +178,7 @@
 		473DABCC1BCD30A500F1FEED /* Cart */ = {
 			isa = PBXGroup;
 			children = (
+				4707293E1BCFB32B00E8158E /* http */,
 				4745FE491BCD3D93007ED99D /* View */,
 				4745FE481BCD3D85007ED99D /* Controller */,
 				4745FE471BCD3D7F007ED99D /* Model */,
@@ -124,6 +189,7 @@
 		473DABD01BCD30C300F1FEED /* Me */ = {
 			isa = PBXGroup;
 			children = (
+				4707293D1BCFB32300E8158E /* http */,
 				4745FE461BCD3D2E007ED99D /* View */,
 				4745FE451BCD3D1C007ED99D /* Controller */,
 				4745FE441BCD3D14007ED99D /* Model */,
@@ -281,6 +347,7 @@
 				473DABC01BCD2AB400F1FEED /* LaunchScreen.storyboard in Resources */,
 				473DABBD1BCD2AB400F1FEED /* Assets.xcassets in Resources */,
 				473DABBB1BCD2AB400F1FEED /* Main.storyboard in Resources */,
+				470729471BCFC5B200E8158E /* bannertest.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +408,7 @@
 			files = (
 				473DABCF1BCD30BE00F1FEED /* CartViewController.m in Sources */,
 				473DABB51BCD2AB400F1FEED /* AppDelegate.m in Sources */,
+				470729441BCFB3C500E8158E /* BannerView.m in Sources */,
 				473DABCA1BCD308300F1FEED /* MainViewController.m in Sources */,
 				473DABB21BCD2AB400F1FEED /* main.m in Sources */,
 				473DABD31BCD30D200F1FEED /* MeViewController.m in Sources */,
@@ -455,6 +523,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: ZhiPing Yan (VCJMPDMB26)";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sudayao/PrefixHeader.pch";
 				INFOPLIST_FILE = sudayao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saint.sudayao;
@@ -469,6 +539,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: ZhiPing Yan (VCJMPDMB26)";
+				ENABLE_BITCODE = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/sudayao/PrefixHeader.pch";
 				INFOPLIST_FILE = sudayao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.saint.sudayao;

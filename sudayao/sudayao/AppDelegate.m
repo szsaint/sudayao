@@ -14,9 +14,15 @@
 
 @implementation AppDelegate
 
+-(void)setNavgiationBar{
+    
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //bugly集成
+    [[CrashReporter sharedInstance] installWithAppId:kBuglyAPPID];
+    
     return YES;
 }
 

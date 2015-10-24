@@ -1,0 +1,52 @@
+//
+//  PrefixHeader.pch
+//  sudayao
+//
+//  Created by yyx on 15/10/15.
+//  Copyright © 2015年 saint. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#pragma mark -- 预定义参数
+
+#define SCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define SCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+//颜色
+#define CONTENT_COLOR [UIColor colorWithRed:105/255.0f green:198/255.0f blue:180/255.0f alpha:1]
+#define CONTENT_BACK_COLOR [UIColor colorWithRed:236/255.0f green:240/255.0f blue:241/255.0f alpha:1]
+#define RGBA(_R,_G,_B,_A) [UIColor colorWithRed:_R/255.0f green:_G/255.0f blue:_B/255.0f alpha:_A]
+#define RGB(_R, _G,_B) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1]
+#define RGB_HEX(hexColor) [UIColor colorWithRed:(((hexColor >> 16) & 0xFF))/255.0f         \
+green:(((hexColor >> 8) & 0xFF))/255.0f          \
+blue:((hexColor & 0xFF))/255.0f                 \
+alpha:1]
+
+// shortcut
+#define App                     [UIApplication sharedApplication]
+#define AppWindow               [UIApplication sharedApplication].delegate.window
+#define NotificationCenter      [NSNotificationCenter defaultCenter]
+#define UserDefaults            [NSUserDefaults standardUserDefaults]
+
+#define StoryBoard(_name_) [UIStoryboard storyboardWithName:_name_ bundle:nil]
+
+#define WeakSelf __weak typeof(self) weakSelf = self;
+
+#define iOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
+#define iOS7 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 7.0)
+#define iOS6 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 6.0)
+
+#define isPad   (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad   ? YES : NO)
+#define isPhone (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone ? YES : NO)
+#define isRetina ([[UIScreen mainScreen] scale] > 1 ? YES : NO)
+
+#pragma mark -- bugly集成
+#import <Bugly/CrashReporter.h>
+
+#pragma mark -- 字符串定义
+#define kBuglyAPPID @"900010610"
+
+#endif /* PrefixHeader_pch */
